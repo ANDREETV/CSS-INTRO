@@ -3,37 +3,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Chivo Mono', monospace ;
+    font-family:  'Chivo Mono', monospace ;
 }
 
 
 .logo{
-    width: 400px;
-    margin: 20PX auto 0 auto;
-    
+    text-align: center;
+    margin-top: 20px;
 }
 .contenitore-text{
     width: 100%;
     height: 50px;
-    margin: 20px auto 0 auto;
+    text-align: center;
+    margin-top: 25px;
     border-top: 2px solid orange;
     background-color:rgba(240, 218, 168, 0.4);
 }
 .text-1{
-    text-align: center;
     padding:12px;
+    color: rgb(33, 105, 105) ;
 }
 .contenitore{
     width: 720px;
-    margin: 20px auto 0 auto;
-
+    margin: 70px auto 0 auto;
 }
 h1{
     text-align: center;
 }
 
 .text-2{
-
     margin: 20px 0 15px 0;
 }
 
@@ -44,6 +42,7 @@ h1{
 .text-3{
 text-align: center;
 margin-top: 15px;
+color: rgba(136, 136, 136, 0.9);
 }
 .blocco{
     width: 100%;
@@ -76,10 +75,33 @@ ul{
     margin-top: 10px;
 }
 
-li{
+.lista{
     font-size: 18px;
-    padding-bottom:  15px;: ;
+    padding-bottom: 15px;
 }
+
+ol{
+    padding-left: 35px;
+    margin-top: 10px;
+}
+
 .seconda{
     margin-top: 20px;
+}
+
+
+
+footer{
+    margin: 20px auto 0 auto;
+    width: 720px;
+    font-size: 20px;
+}
+
+a{
+    color:rgb(33, 105, 105);
+}
+
+.text-8{
+    color: rgb(180, 59, 15);
+    font-size: 25px;
 }
